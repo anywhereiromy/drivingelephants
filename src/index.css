@@ -1,0 +1,79 @@
+body {
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  font-family: "Montserrat", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  min-width: 340px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+code {
+  font-family: "Montserrat", sans-serif, source-code-pro, Menlo, Monaco,
+    Consolas, "Courier New", monospace;
+}
+
+.App {
+  background-color: transparent;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home {
+  text-align: center;
+}
+.trailer {
+  text-align: center;
+}
+.trailer-container {
+  display: inline-block;
+  max-width: 1064px;
+}
+
+.react-player-container {
+  /* margin: auto; */
+  max-width: 340px;
+  margin: 20px;
+}
+
+.active {
+  color: black;
+  background-color: white;
+}
+
+.text-container {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 1064px;
+  min-width: 280px;
+  display: inline-block;
+}
+
+.text {
+  color: white;
+  min-width: 280px;
+  max-width: 640px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.aboutHeader {
+  color: white;
+}

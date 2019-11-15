@@ -1,0 +1,28 @@
+.about-container {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.elephants {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0.3;
+  min-width: 280px;
+}
+
+.kirsty {
+  width: 13em;
+}
+
+.filmLink:hover {
+  color: black;
+  background-color: white;
+}
+
+.filmLink {
+  color: yellow;
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.screenings-container {
+  background-image: url("../images/poster.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+  min-width: 280px;
+}
+
+.screening-text {
+  color: white;
+  min-width: 280px;
+  max-width: 640px;
+  display: inline-block;
+  margin: 20px;
+  padding-top: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
