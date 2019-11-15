@@ -5,11 +5,6 @@ const Trailer = () => {
   return (
     <div className={"trailer"}>
       <div className={"trailer-container"}>
-        <img
-          className={"elephants"}
-          src={"/elephants.jpg"}
-          alt={"Men herding elephants"}
-        />
         <div className={"react-player-container"}>
           <ReactPlayer url="https://vimeo.com/365231924" playing loop />
         </div>
