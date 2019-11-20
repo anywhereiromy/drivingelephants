@@ -24,6 +24,11 @@ const NavBar = props => {
           SCREENINGS
         </button>
       </span>
+      <span>
+        <button className={"navbar-link"} onClick={() => navigate("/contact")}>
+          CONTACT
+        </button>
+      </span>
     </div>
   );
 };

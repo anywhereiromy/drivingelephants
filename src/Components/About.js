@@ -10,40 +10,6 @@ const About = () => {
         alt={"Men herding elephants"}
       />
       <div className={"text-container"}>
-        <h2 className={"aboutHeader"}>THE FILM</h2>
-        <p className={"text"}>
-          Caught in the cross-fire of a shrinking forest habitat and an ever
-          expanding urban population, the elephants of Bannerghatta National
-          Park are being pushed towards extinction.
-          <br />
-          <br />
-          With approximately 40% of the national park’s northern boundary
-          surrounded by the ever expanding city of Bangalore, inviolate forest
-          space available for the elephant is being eaten away. Elephants are
-          forced to live in thin forest strips, on the edge, where they are
-          often tempted out into human-habitation by the crops marginalized
-          farmers grow.
-          <br />
-          <br />
-          Driving Elephants, a 26 minute feature film documents the harsh
-          reality free ranging elephants in Bannerghatta forests are faced with
-          and the fatal consequences of coming out into human spaces. We are
-          seeing a trend of male elephants moving further away from the
-          protection of the national park in search of foraging grounds, namely
-          into farms and plantations. For local communities to co-exist with
-          this large, intelligent and sometimes dangerous wild animal brings
-          both economic loss and sometimes danger to their lives. This puts the
-          elephant in direct conflict with people, as a result of which they are
-          either injured, killed or captured.
-          <br />
-          <br />
-          This documentary highlights the insurmountable challenges the
-          frontline staff of the Karnataka forest department is faced with in
-          protecting the elephant and the humans they come in contact with. Our
-          hope through this documentary is to bring awareness towards the ever
-          precarious existence of the elephant and the people whose lives are
-          affected by the ensuing conflict.
-        </p>
         <h2 className={"aboutHeader"}>ABOUT THE ELEPHANTS</h2>
         <p className={"text"}>
           The elephants of Bannerghatta National Park are in a state of flux;
@@ -112,7 +78,11 @@ const About = () => {
           Kirsty independently wrote and directed the film, in her biggest
           film-making endeavour to date.
         </p>
-        <h2 className={"aboutHeader"}>A ROCHA INDIA</h2>
+        <h2 className={"aboutHeader"}>
+          <a href={"https://www.arocha.in/"} className={"filmLink"}>
+            A ROCHA INDIA
+          </a>
+        </h2>
         <p className={"text"}>
           Understanding the great significance Bannerghatta National Park holds
           as an ecological resource for wildlife and for the city of Bangalore,

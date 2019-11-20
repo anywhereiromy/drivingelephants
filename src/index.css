@@ -14,6 +14,7 @@ body {
   color: white;
   font-family: "Montserrat", sans-serif;
   min-width: 340px;
+  font-size: 6vh;
 }
 
 p {
@@ -69,11 +70,12 @@ code {
 .text {
   color: white;
   min-width: 280px;
-  max-width: 640px;
+  max-width: 95vw;
   display: inline-block;
   margin: 20px;
 }
 
 .aboutHeader {
-  color: white;
+  color: grey;
+  letter-spacing: 5px;
 }
