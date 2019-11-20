@@ -6,7 +6,12 @@ const Trailer = () => {
     <div className={"trailer"}>
       <div className={"trailer-container"}>
         <div className={"react-player-container"}>
-          <ReactPlayer url="https://vimeo.com/365231924" playing loop />
+          <ReactPlayer
+            url="https://vimeo.com/365231924"
+            playing
+            loop
+            className={"react-player"}
+          />
         </div>
         <div className={"text-container"}>
           <p className={"text"}>

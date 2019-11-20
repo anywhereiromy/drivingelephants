@@ -48,9 +48,14 @@ code {
 }
 
 .react-player-container {
-  /* margin: auto; */
-  max-width: 340px;
-  margin: 20px;
+  margin: auto;
+  max-width: 90%;
+  height: 400px;
+}
+
+.react-player {
+  display: inline;
+  text-align: center;
 }
 
 .active {
@@ -78,4 +83,9 @@ code {
 .aboutHeader {
   color: grey;
   letter-spacing: 5px;
+}
+
+#filmPoster {
+  height: 50em;
+  display: inline-block;
 }
