@@ -1,5 +1,5 @@
 import React from "react";
-import { Router } from "@reach/router";
+import { Router, navigate } from "@reach/router";
 import Trailer from "./Components/Trailer";
 import About from "./Components/About";
 import Screenings from "./Components/Screenings";
@@ -10,7 +10,14 @@ const App = props => {
   return (
     <div className={"App"}>
       {/* TODO: Change to animation */}
-      <h1 className={"title"}>DRIVING ELEPHANTS</h1>
+      <h1
+        className={"title"}
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        DRIVING ELEPHANTS
+      </h1>
       <NavBar />
       <Router>
         <Trailer path="/" {...props} />
