@@ -29,6 +29,10 @@ const Contact = () => {
           <br />
           +91 9886672041
         </p>
+         <br />
+        <img className={"kirsty"} src={"/aRochaLogo.png"} alt={"A Rocha India Logo"} />
+        <br />
+          <br />
         <h2 className={"aboutHeader"}>KIRSTY WELLS - DIRECTOR</h2>
         <p className={"text"}>
           For film-making enquiries you can reach the director, Kirsty Wells, at
@@ -36,6 +40,17 @@ const Contact = () => {
           <br />
           <a href="mailto: kirstyawells@live.co.uk" className={"filmLink"}>
             kirstyawells@live.co.uk
+          </a>
+          <br />
+          <br />
+          See more of Kirsty's work on
+          <br />
+          <br />
+          <a
+            href="https://vimeo.com/kirstywells?fbclid=IwAR2S2n-4PSathRhpSo9_gViCSKLmHDEN5RiGK5ZOySzOtUogA3i078fTMnM"
+            className={"filmLink"}
+          >
+            Vimeo
           </a>
         </p>
         <h2 className={"aboutHeader"}>INSTAGRAM</h2>

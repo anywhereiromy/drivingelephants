@@ -13,10 +13,24 @@ const Screenings = () => {
         />
         <h2 className={"aboutHeader"}>INDIA</h2>
         <p className={"text"}>
-          30th November at St Josephs College of Arts and Science, Bangalore
+          <a
+            href="https://www.facebook.com/events/588554398560675/"
+            className={"filmLink"}
+          >
+            30th November at St Josephs College of Arts and Science, Bangalore
+          </a>
         </p>
         <br />
+        <img
+          src={"/indiaPremiere.png"}
+          alt={
+            "B4B Presents Premiere of Driving Elephants - Programme following the film screening A. Panel discussion on 'Managing elephants of Silicon City'. B. Felicitation of forest officials of Bannerghatta National Park"
+          }
+          id={"filmPoster"}
+        />
+        <br />
         <h2 className={"aboutHeader"}>UK</h2>
+
         <p className={"text"}>TBA</p>
       </div>
     </div>

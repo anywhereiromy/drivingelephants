@@ -45,6 +45,9 @@ const About = () => {
           diversity, contributed through breeding which is essential for the
           long-term survival of elephants in this landscape.
         </p>
+
+        <img className={"kirsty"} src={"/runningElephants.jpg"} alt={"Elephants running"} />
+        <img className={"kirsty"} src={"/elephantDust.jpg"} alt={"An elephant spraying itself with dust from it's trunk"} />
         <h2 className={"aboutHeader"}>KIRSTY WELLS - DIRECTOR</h2>
         <img
           className={"kirsty"}
@@ -112,6 +115,28 @@ const About = () => {
           Karnataka Forest Department, the urban citizen and children; and in by
           doing so we hope to save the forest that we survive on.
         </p>
+        <img
+          className={"kirsty"}
+          src={"/karnatkaOne.jpg"}
+          alt={
+            "Men from the Karnataka Forest Department. Still taken from the film."
+          }
+        />
+        <img
+          className={"kirsty"}
+          src={"/karnatkaTwo.jpg"}
+          alt={
+            "Men from the Karnataka Forest Department. Still taken from the film."
+          }
+        />
+        <img
+          className={"kirsty"}
+          src={"/karnatkaThree.jpg"}
+          alt={
+            "Men from the Karnataka Forest Department. Still taken from the film."
+          }
+        />
+        <br />
         <h2 className={"aboutHeader"}>FOREST DEPARTMENT</h2>
         <p className={"text"}>
           Bannerghatta National Park is a segregated part of the largest
@@ -144,6 +169,11 @@ const About = () => {
           for action to make long-term policy level changes to protect a forest
           that benefits us all.
         </p>
+        <img
+          className={"kirsty"}
+          src={"/elephantFight.jpg"}
+          alt={"Elephants with interlocking tusks"}
+        />
       </div>
     </div>
   );
