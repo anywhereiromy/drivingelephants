@@ -72,6 +72,16 @@ code {
   display: inline-block;
 }
 
+.text-container-screenings {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 1200px;
+  min-width: 280px;
+  display: inline-block;
+}
+
+
 .text {
   color: white;
   min-width: 280px;
@@ -87,5 +97,9 @@ code {
 
 #filmPoster {
   height: 50em;
+  display: inline-block;
+}
+
+#screeningFlier {
   display: inline-block;
 }

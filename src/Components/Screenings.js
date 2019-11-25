@@ -5,7 +5,7 @@ const Screenings = () => {
   return (
     <div className={"screenings-container"}>
       <div className={"overlay"} />
-      <div className={"text-container"}>
+      <div className={"text-container-screenings"}>
         <img
           src={"/poster.jpg"}
           alt={"Driving elephants film poster"}
@@ -26,7 +26,7 @@ const Screenings = () => {
           alt={
             "B4B Presents Premiere of Driving Elephants - Programme following the film screening A. Panel discussion on 'Managing elephants of Silicon City'. B. Felicitation of forest officials of Bannerghatta National Park"
           }
-          id={"filmPoster"}
+          id={"screeningFlier"}
         />
         <br />
         <h2 className={"aboutHeader"}>UK</h2>

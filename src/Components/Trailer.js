@@ -65,8 +65,18 @@ const Trailer = () => {
           </p>
           <br />
           <br />
-        <img className={"kirsty"} src={"/aRochaLogo.png"} alt={"A Rocha India Logo"} />
-        <img className={"kirsty"} src={"/karnatkaLogo.png"} alt={"Karnatka Forest Department Logo"} />
+          <img
+            className={"kirsty"}
+            src={"/aRochaLogo.png"}
+            alt={"A Rocha India Logo"}
+          />
+          <br />
+
+          <img
+            className={"kirsty"}
+            src={"/karnatkaLogo.png"}
+            alt={"Karnatka Forest Department Logo"}
+          />
         </div>
       </div>
     </div>

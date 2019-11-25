@@ -46,8 +46,16 @@ const About = () => {
           long-term survival of elephants in this landscape.
         </p>
 
-        <img className={"kirsty"} src={"/runningElephants.jpg"} alt={"Elephants running"} />
-        <img className={"kirsty"} src={"/elephantDust.jpg"} alt={"An elephant spraying itself with dust from it's trunk"} />
+        <img
+          className={"kirsty"}
+          src={"/runningElephants.jpg"}
+          alt={"Elephants running"}
+        />
+        <img
+          className={"kirsty"}
+          src={"/elephantDust.jpg"}
+          alt={"An elephant spraying itself with dust from it's trunk"}
+        />
         <h2 className={"aboutHeader"}>KIRSTY WELLS - DIRECTOR</h2>
         <img
           className={"kirsty"}
@@ -173,6 +181,18 @@ const About = () => {
           className={"kirsty"}
           src={"/elephantFight.jpg"}
           alt={"Elephants with interlocking tusks"}
+        />
+        <br />
+        <img
+          className={"kirsty"}
+          src={"/aRochaLogo.png"}
+          alt={"A Rocha India Logo"}
+        />
+        <br />
+        <img
+          className={"kirsty"}
+          src={"/karnatkaLogo.png"}
+          alt={"Karnatka Forest Department Logo"}
         />
       </div>
     </div>
