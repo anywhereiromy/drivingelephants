@@ -8,8 +8,8 @@ const Trailer = () => {
         <div className={"react-player-container"}>
           <ReactPlayer
             url="https://vimeo.com/365231924"
-            playing
-            loop
+            playing={true}
+            loop={true}
             className={"react-player"}
           />
         </div>
