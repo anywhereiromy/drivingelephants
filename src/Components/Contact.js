@@ -5,6 +5,11 @@ import InstagramEmbed from "react-instagram-embed";
 const Contact = () => {
   return (
     <div className={"about-container"}>
+      <img
+        className={"elephantsTrailer"}
+        src={"/runningElephants.jpg"}
+        alt={"Elephants running"}
+      />
       <div className={"text-container"}>
         <h2 className={"aboutHeader"}>A ROCHA INDIA</h2>
         <p className={"text"}>
@@ -29,10 +34,14 @@ const Contact = () => {
           <br />
           +91 9886672041
         </p>
-         <br />
-        <img className={"kirsty"} src={"/aRochaLogo.png"} alt={"A Rocha India Logo"} />
         <br />
-          <br />
+        <img
+          className={"kirsty"}
+          src={"/aRochaLogo.png"}
+          alt={"A Rocha India Logo"}
+        />
+        <br />
+        <br />
         <h2 className={"aboutHeader"}>KIRSTY WELLS - DIRECTOR</h2>
         <p className={"text"}>
           For film-making enquiries you can reach the director, Kirsty Wells, at

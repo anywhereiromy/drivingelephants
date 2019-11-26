@@ -11,10 +11,19 @@
   width: 100%;
   opacity: 0.3;
   min-width: 280px;
+  z-index: 0.5;
 }
 
 .kirsty {
   width: 13em;
+}
+
+.karnatkaMen {
+  width: 33%;
+}
+
+.elephantFight {
+  width: 100%;
 }
 
 .filmLink:hover {

@@ -81,7 +81,6 @@ code {
   display: inline-block;
 }
 
-
 .text {
   color: white;
   min-width: 280px;
@@ -102,4 +101,20 @@ code {
 
 #screeningFlier {
   display: inline-block;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+
+.elephantsTrailer {
+  position: absolute;
+  left: 0;
+  top: 200;
+  width: 100%;
+  opacity: 0.3;
+  min-width: 280px;
+}
+
+.screenings-image-container {
+  width: 50vw;
 }

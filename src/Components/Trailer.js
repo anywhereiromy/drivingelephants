@@ -13,6 +13,11 @@ const Trailer = () => {
             className={"react-player"}
           />
         </div>
+        <img
+          className={"elephantsTrailer"}
+          src={"/elephantDust.jpg"}
+          alt={"An elephant spraying itself with dust from it's trunk"}
+        />
         <div className={"text-container"}>
           <p className={"text"}>
             Caught in the cross-fire of a shrinking forest habitat and an ever
@@ -71,7 +76,6 @@ const Trailer = () => {
             alt={"A Rocha India Logo"}
           />
           <br />
-
           <img
             className={"kirsty"}
             src={"/karnatkaLogo.png"}
