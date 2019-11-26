@@ -184,11 +184,6 @@ const About = () => {
         />
       </div>
       <br />
-      <img
-        className={"elephantFight"}
-        src={"/elephantFight.jpg"}
-        alt={"Elephants with interlocking tusks"}
-      />
     </div>
   );
 };
