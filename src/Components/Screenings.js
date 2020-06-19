@@ -6,10 +6,23 @@ const Screenings = () => {
     <div className={"screenings-container"}>
       <div className={"overlay"} />
       <div className={"text-container-screenings"}>
+        <h2 className={"aboutHeader"}>ONLINE NOW</h2>
+        <p className={"text"}>
+          <a
+            href="https://ecostreamz.com/films/catalog/detail/190?fbclid=IwAR3abMVTfj4vL48BcUvwy_BmCWHwMdT7Y7_pTnoaWDRzUK1uv_oQJ-yTbaM"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={"filmLink"}
+          >
+            Watch FULL FILM here
+          </a>
+        </p>
         <h2 className={"aboutHeader"}>INDIA</h2>
         <p className={"text"}>
           <a
             href="https://www.facebook.com/events/588554398560675/"
+            target="_blank"
+            rel="noopener noreferrer"
             className={"filmLink"}
           >
             30th November at St Josephs College of Arts and Science, Bangalore
