@@ -1,10 +1,14 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import "./Trailer.css";
 
 const Trailer = () => {
   return (
     <div className={"trailer"}>
       <div className={"trailer-container"}>
+        <a className="filmButton" href="https://ecostreamz.com/films/catalog/detail/190?fbclid=IwAR3abMVTfj4vL48BcUvwy_BmCWHwMdT7Y7_pTnoaWDRzUK1uv_oQJ-yTbaM" target="_blank" rel="noopener noreferrer">
+          WATCH FULL FILM HERE
+        </a>
         <div className={"react-player-container"}>
           <ReactPlayer
             url="https://vimeo.com/365231924"
